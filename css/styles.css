@@ -796,6 +796,10 @@ body {
   resize: none;
 }
 
+.modal-textarea:focus {
+  border-color: var(--primary-color);
+}
+
 .modal-textarea::placeholder {
   font-size: 12px;
   line-height: 1.17;
